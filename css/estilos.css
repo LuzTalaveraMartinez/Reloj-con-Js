@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(241, 241, 245);
+    color: black;
+}
+
+.cont-reloj {
+    margin: 170px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 220px;
+    width: 40%;
+    border: 6px solid #fff;
+    background-color: #e5e5e5;
+    box-shadow: -13px -13px 13px #fff, 15px 15px 15px rgba(13, 39, 80, .26), inset -13px -13px 13px #fff, inset 15px 15px 15px rgba(13, 39, 80, .26);
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #00CC99;
+}
+
+.datos {
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.reloj {
+    font-size: 4.7em;
+}
+
+@media (max-width: 1176px) {
+    font-size: 2em;
+}
